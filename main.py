@@ -44,7 +44,7 @@ while move != "-":
         else:
             print("ДОБАВЛЕНИЕ ОТМЕНЕНО!")
 
-    if move == "2":  # delete data NO WORK
+    if move == "2":  # delete data
         site = str(
             input("Введите название сайта, данные от которого надо удалить: \n"))
         with open('data.json', 'r', encoding='utf-8') as f:
